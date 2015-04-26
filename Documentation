@@ -1,0 +1,22 @@
+Public Methods: 
+	readFileIntoTable() - Takes user input, opens and reads file, parses each line and inserts movies into the hash table.
+
+	removeAll() - Calls deleteMovie() on each element in the table.
+
+	guessingGame() - Program shows first few letters of each movie title and user guesses the full names for points.
+
+	tableSize() - Counts number of elements in table.
+
+	totalIndex() - Adds ASCII sums of each title in the table and finds the index of the total.
+
+	int hashFind() - Uses index of input to cut down actions used to find the movie in the table.
+	
+	int hashSum() - Finds the ASCII sum of the title inserted and finds the remainder of the sum divided by the array size.
+
+	void insertMovie() - Insert a movie based on the title's index from hashSum() and proceeds to insert movie alphabetically into that index's linked list.
+
+	Movie * findMovie() - Traverse full table until input title matches and element's title and prints its information.
+
+	void deleteMovie() - Traverse table until input title matches an element. Linked list element is contained in points around it before deleting.
+
+	void printInventory() - Traverse full table printing each element.
